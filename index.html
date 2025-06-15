@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <title> Haydar Mohung</title>
+     <meta name="description" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" type="text/css" media="screen" href="./styles/main.css">
+
+</head>
+<body>
+    <div id="container--main">
+        <section id="wrapper--hero" class="section--page">
+            <img src="./assets/images/Profile pic.JPEG"id="profile-pic" alt="Profile Picture"/>
+
+            <div>
+                <h1 id="user-name">Haydar Mohung</h1>
+                <p id="bio"> Software Engineer </p>
+                <p id="email"> 👉ali.haydar.mohung@gmail.com  </p>
+            </div>
+        </section>
+
+        <section class="sectiom--page">
+            <div id="socials--list">
+              <a href="https://www.instagram.com/777_silentium/" target="_blank" class="btn--instagram">📸 Instagram</a>
+             <a href="./assets/My CV updated.pdf" target="_blank" class="btn--resume">Download Resume</a>
+            </div>
+
+        </section>
+
+        <section class="section--page">
+            <h2>Skills & Qualifications</h2>
+            <ul id="qualifications--list">
+                <li>✔️Graduated School Certicate</li>
+                <li>✔️Graduated Higher School Certicate</li>
+                <li>👉Currently studying Bachelor in software Engineerimg at the University Of Mauritius</li>
+            </ul>
+        </section>
+        <section id="work-history-wrapper" class="section--page">
+
+    <h2>Education</h2>
+
+    <div class="line-break"></div>
+    <div class="Education">
+        <strong>Graduated Higher School Certificate</strong>
+        <p>02/2025</p>
+        <P>Phoenix State Secondary School</P>
+        <p>Gaining the following grade(s) in the syllabus(es) shown:</p>
+        <ul>
+            <li>Mathematics Advanced Level C(c)</li>
+            <li>Chemistry Advanced Level D(d)</li>
+            <li>Physics Advanced Level D(d)</li>
+            <li>General Paper Advanced Subsidiary a(a)</li>
+            <li>French Advanced Subsidiary b(b)</li>
+        </ul>
+    </div>
+
+    <div class="line-break"></div>
+    <div class="Education">
+        <strong>Graduated School Certificate(SC) with high honors and an overall result of aggregate 10.e</strong>
+        <p>Gaining the following grade(s) in the syllabus(es) shown:</p>
+        <ul>
+            <li>English A</li>
+            <li>Mathematics A</li>
+            <li>Computer A*</li>
+            <li>French C</li>
+            <li>Additional Mathematics B</li>
+            <li>Design and Technology A*</li>
+            <li>Chemistry A</li>
+            <li>Physics A</li>
+        </ul>
+        <p>I also received an award for best performer SC during the prize giving day at my school and I took the award
+from the Dr. Kailesh Kumar Singh JAGUTPAL</p>
+    </div>
+
+
+
+
+    <h2>Work History</h2>
+
+    <div class="line-break"></div>
+    <div class="card--work-history">
+        <strong>🚧 Shop Manager / Soumy's Sweets Ltd - Vacoas </strong>
+        <p>11/2024 - Current</p>
+
+        <ul>
+            <li>Oversaw the training and development of new staff members if ever there are new employees.</li>
+            <li>Oversaw the shop inventories and in charge of the shop.</li>
+            <li>Involves interactions with customers and asking them if they are satisfies with our products.</li>
+        </ul>
+    </div>
+
+    <div class="line-break"></div>
+
+    <div class="card--work-history">
+        <strong>🚧Product Hostess / Purple Grey Ltd</strong>
+        <p>11/2023 - 12/2023</p>
+        <p>I needed to advertise new products from Yoplait, Chanteclaire in supermarkets and
+demonstrated strong interpersonal skills when interacting with customers. Customers were
+very pleased to the way I addressed them and make them taste the products (Yoplait).</p>
+        
+    </div>
+
+    <div class="line-break"></div>
+
+    <div class="card--work-history">
+        <strong>🚧 Salesperson and Cashier / The Cake Gallery Ltd - Vacoas </strong>
+        <p>11/2022 - 10/2023</p>
+        <p>From this past job at the cake gallery, I have achieved the experience of being in charge of a
+shop and my communication skills increased considerately as I started with various types of
+clients and how to welcome them and serve them appropriately. During school holidays, it was
+a full-time job, and during the school period, I was employed part-time, working night shifts.</p>
+        <ul>
+            <li>Performed regular follow-ups with clients to ensure satisfaction with purchases.</li>
+            <li>Resolved customer complaints promptly and efficiently.</li>
+            <li>Monitored inventory levels and placed orders as needed.</li>
+        </ul>
+    </div>
+
+    <div class="line-break"></div>
+
+    <div class="card--work-history">
+        <strong>🚧 Assistant Carpenter / Emsix boutique Ltd - Vacoas</strong>
+        <p>11/2020 - 10/2022</p>
+        <p>
+            During school holidays, I used to work as an assistant carpenter and a helper in a company
+called Emsix Boutique Ltd that was expertise in making luxurious furniture, kitchen and false
+ceilings.
+        </p>
+        <ul>
+            <li>I achieved a lot of experience and expertise on how those products are made and delivered.</li>
+        </ul>
+    </div>
+
+    </section>
+    </div>
+
+<script>
+  const sections = document.querySelectorAll('.section--page');
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, {
+    threshold: 0.1
+  });
+
+  sections.forEach(section => observer.observe(section));
+</script>
+
+
+
+</body>
+</html>
+
+    
